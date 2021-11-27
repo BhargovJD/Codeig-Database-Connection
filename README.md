@@ -6,7 +6,8 @@
         'database' => 'ci_crud',
 
 2.  Make a model to connect a table(employees)
-        EmpModel:
+        
+       EmpModel:
 
             <?php
             namespace App\Models;
@@ -22,7 +23,8 @@
             ?>
 
 3.  Make a Controller to work on Model
-        EmpController:
+       
+       EmpController:
 
         <?php
         namespace App\Controllers;
@@ -39,7 +41,8 @@
         }
 
 4.  View
-        emp_page.php:
+        
+       emp_page.php:
 
         <h1>Emp page</h1>
         <?php
@@ -48,6 +51,7 @@
         ?>
 
 5.  Routes
-        Routes.php:
+        
+       Routes.php:
     
         $routes->get('/emp', 'EmpController::display');
