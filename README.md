@@ -1,6 +1,7 @@
 ## Database Connection and Display Data
 
 1.  Make connection in app/Config/Database.php file
+        
         'username' => 'root',
         'database' => 'ci_crud',
 
@@ -48,4 +49,5 @@
 
 5.  Routes
     Routes.php:
+    
         $routes->get('/emp', 'EmpController::display');
