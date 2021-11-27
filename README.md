@@ -1,13 +1,13 @@
 ## Database Connection and Display Data
 
 1.  Make connection in app/Config/Database.php file
-    'username' => 'root',
-    'database' => 'ci_crud',
+        'username' => 'root',
+        'database' => 'ci_crud',
 
 2.  Make a model to connect a table(employees)
     EmpModel:
 
-    <?php
+            <?php
             namespace App\Models;
             use CodeIgniter\Model;
 
